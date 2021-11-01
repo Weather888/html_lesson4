@@ -1,5 +1,5 @@
 h1, h2, h3, h4{
-  font-family:Arial;
+  font-family:  Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   color: #49678D;
 }
@@ -8,7 +8,7 @@ h1 {
   font-weight: normal;
   letter-spacing: 0.6pt;
   border-bottom: 3px solid #f0f0f2; 
-  padding: 0 0 12px 0; 
+  padding: 0 0 15px 0; 
   }
 h2 {
   font-size: 120%;
@@ -16,14 +16,14 @@ h2 {
   font-weight: bold;
   border-bottom: 3px solid #f0f0f2; 
   clear: both;  /*отменяет обтекание*/
-  padding: 30px 0 12px 0; 
+  padding: 10px 0 15px 0; 
   }
 h3 {
   font-size: 120%;
   letter-spacing: 0.5pt;
   font-weight: bold;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 30px 0 10px 0; 
+  padding: 30px 0 15px 0; 
   }
 h4 {
   font-size: 95%;
@@ -32,22 +32,28 @@ h4 {
   border-bottom: 2px solid #f0f0f2; 
   padding: 0 0 12px 0; 
   }
+  body{
+  width: 800px;
+  margin: auto auto;
+}
+
 #logo{                            
-  font-family: Arial;
+  font-family:Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 90%;
-  letter-spacing: 0.3pt;
+  letter-spacing: 0.4pt;
   line-height: 13pt;
   padding: 3px 10px 0 5px; 
 }
 img {
-width: 4%;
+width: 35px;
 float:left;
+margin: 7px 0 0 5px;
 padding: 3px 12px 0 0; 
 }
 
 form {
-  font-family: Arial;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 90%;
   overflow: hidden; /*содержимое, выходящее за пределы блока элемента, будет скрыто.*/
@@ -73,7 +79,7 @@ padding: 0 0 0 12px;
 padding: 0 0 0 12px; 
 }
 .city{
-padding: 0 0 30px 20px; 
+padding: 0 0 20px 20px; 
 }
 .school{
 padding: 0 0 0 20px; 
@@ -90,7 +96,8 @@ letter-spacing: 0.3pt;
 
 .account-info input {
 border: 1px solid #c6c7cc;
-width: 165px;
+width: 150px;
+padding: 5px 0 0 25px;
 }
 
 .account-info select {
@@ -98,22 +105,24 @@ width: 165px;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  width: 165px;
+  width: 180px;
+  padding: 3px 2px;
 }
+
 cite{
-  font-family: Arial;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 73%;
   font-style: normal;
-  letter-spacing: 0.2pt;
+  letter-spacing:-0.2pt;
   color: #A0A0A4;
 }
 span{
-  font-family: Arial;
-  padding: 0 0 0 45px; 
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  padding: 0 0 0 50px; 
   font-size: 73%;
-  letter-spacing: 0.2pt;
   font-weight: bolder;
   color: #636466;
+  letter-spacing: -0.2pt;
 }
 
 .account-action .btn {
@@ -123,11 +132,13 @@ span{
   cursor: pointer;
   margin-top: 15px;
   margin-left: 20px;
-  width: 213px;
+  width: 230px;
+  font-size: 100%;
+  padding: 3px 2px;
 }
 
 .foot{
-  font-family: Arial;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 71%;
   letter-spacing: 0.1pt;
   margin-top: 2px;
@@ -137,8 +148,7 @@ span{
 }
 .foot a{                   
   text-decoration: none;   /*убираем подчеркивание*/
-  font-family: Arial;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 100%;
   color: #49678D;
-  
-}
+  }
