@@ -18,8 +18,8 @@
     <article class="c1">
       <h2>Добро пожаловать на наш сайт!</h2>
        <form action="/signup" method="POST">
-        <legend>Для регистрации введите свои данные:</legend>
         <fieldset class="account-info">
+          <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
           <input type="text" name="first_name">
           <label>Фамилия</label>
@@ -47,9 +47,12 @@
           
         </fieldset>
         <fieldset class="account-action">
-          <p class="p1"<label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
-              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования услуги</a></label> </p>
-             <p class="p2"<label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об обработке персональных данных</a></label></p>
+         <p class="p1">
+          <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования услуги</a></label> 
+              <br>
+             <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об обработке персональных данных</a></label>
+         <p>
           <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
           </fieldset>
       </form>
