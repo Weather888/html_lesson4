@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   font-weight: 900;
   text-transform: uppercase;
-  transform: scalex(0.75);
+  transform: scalex(0.745);
   letter-spacing: 2px;
   margin-bottom: 0;
  
@@ -71,6 +71,7 @@ legend {
   margin-left: 12px;
   padding-top: 10px;
   
+  
 }
 
 /*граници информационного блока*/
@@ -84,7 +85,7 @@ legend {
   font-weight: bold;
   text-align: left;
   padding-bottom: 3px;
-  
+  letter-spacing: -0.2pt;
 }
 
 /*текст внутри регистрационных блоков*/

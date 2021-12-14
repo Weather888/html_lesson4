@@ -47,6 +47,7 @@ h5 {
   line-height: 12pt;
   padding: 3px 1200px 0 5px; 
 }
+
 img {
 width: 35px;
 float:left;
@@ -98,7 +99,6 @@ padding: 0 0 0 40px;
 .account-info label {
 color: #636466;
 font-size: 90%;
-
 }
 
 .account-info input {
@@ -112,7 +112,11 @@ padding: 5px 0 0 7px;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  width: 164px;
+  width: 166px;
+  height: 20px;
+  padding: 0 0 5px 4px; 
+  font-size: 13px;
+  letter-spacing: 0.3pt;
 }
 
 cite{
@@ -122,15 +126,17 @@ cite{
   letter-spacing:-0.7pt;
   color: #A0A0A4;
 }
+/*годод, гле учились*/
 span{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   padding: 0 0 0 50px; 
   margin: 0 0 0 0;
-  font-size: 72%;
+  font-size: 73%;
   font-weight: bolder;
   color: #636466;
+  letter-spacing: -0.7pt;
 }
-
+/*кнопка*/
 .account-action .btn {
   background:   #f0f0f2;
   border: 1px solid #c6c7cc;
@@ -138,15 +144,17 @@ span{
   cursor: pointer;
   margin-top: 12px;
   margin-left: 32px;
+  padding-left: 0;
   width: 210px;
   font-size: 90%;
-  padding: 2px 3px;
+  letter-spacing: 0.25pt;
+  
 }
-
+/*пользовательское соглашение*/
 .foot{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 65%;
-  letter-spacing: -0.4pt;
+  letter-spacing: -0.3pt;
   margin-top: 0;
   margin-left: 30px;
   color: #A0A0A4;
