@@ -1,14 +1,14 @@
 h1, h2, h3, h4, h5{
   font-family:  Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
-  color: #49678D;
 }
 h1 {
   font-size: 100%;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: 0.8pt;
   border-bottom: 3px solid #f0f0f2; 
-  padding: 0 0 16px 0; 
+  padding: 0 0 16px 0;
+  color: #094277; 
   }
 h2 {
   font-size: 100%;
@@ -17,41 +17,53 @@ h2 {
   border-bottom: 3px solid #f0f0f2; 
   clear: both;  /*отменяет обтекание*/
   padding: 10px 0 16px 0; 
+  color: #49678D;
   }
 h3 {
   font-size: 110%;
   letter-spacing: -0,8pt;
   font-weight: bold;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 33px 0 15px 0; 
+  padding: 35px 0 17px 0; 
+  color: #49678D;
   }
 h4 {
   font-size: 90%;
   font-weight: bold;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 0 0 15px 0;
-  margin: 23px 0 0 0;
+  padding: 0 0 12px 0;
+  margin: 25px 0 0 0;
+  color: #49678D;
   }
 h5 {
   font-size: 90%;
   font-weight: bold;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 0 0 12px 0;
+  padding: 0 0 11px 0;
   margin: 0 0 0 0;
+  color: #49678D;
   }
 #logo{                            
   font-family:Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 78%;
-  letter-spacing: 0.3pt;
+  letter-spacing: 0.2pt;
   line-height: 12pt;
-  padding: 3px 1200px 0 5px; 
+  padding: 5px 1200px 0 5px; 
+  
 }
-
+#logo a{                   
+  text-decoration: none;   /*убираем подчеркивание*/
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 0.7pt;
+  }
 img {
 width: 35px;
 float:left;
-margin: 7px 7px 0 0;
+margin: 7px 8px 0 0;
 padding: 0 0 0 0; 
 }
 
@@ -89,52 +101,57 @@ padding: 0 0 0 17px;
 padding: 0 0 12px 27px; 
 }
 .school{
-padding: 0 0 0 18px; 
-margin: 12px 0 14px 0;
+padding: 0 0 0 19px; 
+margin: 14px 0 12px 0;
 }
 .univer{
-padding: 0 0 0 40px; 
+padding: 0 0 0 42px; 
 }
 
 .account-info label {
 color: #636466;
 font-size: 90%;
+
 }
 
 .account-info input {
 border: 1px solid #c6c7cc;
 width: 150px;
-padding: 5px 0 0 7px;
+padding: 4px 0 0 6px;
+margin-top: 0px;
+
 }
 
 .account-info select {
   background: #fff;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  color: #636466;
-  width: 166px;
+  color: black;
+  font-weight: 500;
+  width: 164px;
   height: 20px;
-  padding: 0 0 5px 4px; 
+  padding: 0 0 0 1px; 
   font-size: 13px;
-  letter-spacing: 0.3pt;
+  letter-spacing: 0.5pt;
 }
 
 cite{
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 74%;
+  font-size: 73%;
   font-style: normal;
   letter-spacing:-0.7pt;
-  color: #A0A0A4;
+  color: #c6c7cc;
+  font-weight: 500;
 }
-/*годод, гле учились*/
+/*годод, гlе учились*/
 span{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   padding: 0 0 0 50px; 
   margin: 0 0 0 0;
-  font-size: 73%;
+  font-size: 10.5px;
   font-weight: bolder;
   color: #636466;
-  letter-spacing: -0.7pt;
+  letter-spacing: -0.6pt;
 }
 /*кнопка*/
 .account-action .btn {
@@ -142,7 +159,7 @@ span{
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   cursor: pointer;
-  margin-top: 12px;
+  margin-top: 13px;
   margin-left: 32px;
   padding-left: 0;
   width: 210px;
@@ -153,8 +170,8 @@ span{
 /*пользовательское соглашение*/
 .foot{
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 65%;
-  letter-spacing: -0.3pt;
+  font-size: 66%;
+  letter-spacing: -0.5pt;
   margin-top: 0;
   margin-left: 30px;
   color: #A0A0A4;
