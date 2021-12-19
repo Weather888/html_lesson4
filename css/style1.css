@@ -113,7 +113,7 @@ legend {
 }
 
 .pass_label{
-  margin-top: 2px;
+  margin-top: 3px;
 }
 .pass_input{
   margin-top: 0px;
@@ -126,8 +126,10 @@ legend {
 
 .email_notnull{
   font-size: 12px;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
+
 }
+
 /*нижняя часть с чекбоксами и кнопкой*/
 .account-action {
   background: #f0f0f2;
